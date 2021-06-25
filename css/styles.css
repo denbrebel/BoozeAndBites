@@ -1,0 +1,123 @@
+body {
+  background-color: #fdfdf6;
+}
+
+h1 {
+  font-family: "Limelight";
+  color: #b8b2a6;
+  text-align: center;
+  font-size: 8rem;
+}
+
+h2 {
+  font-family: "Oswald";
+  color: #fdfdf6;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: right;
+  padding-bottom: 5%;
+}
+
+p {
+  color: #b8b2a6;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: right;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.small-heading {
+  font-family: "Niconne";
+  font-size: 2rem;
+  text-align: center;
+  color: #b8b2a6;
+  padding-bottom: 3%;
+}
+
+.rubriek-heading {
+  font-family: "Oswald";
+  color: #fabec0;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding:5%;
+}
+
+.logoImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 3%
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+  color: #b8b2a6;
+  font-family: "Oswald";
+}
+
+/* Kleine omschrijving */
+.info-section {
+  padding: 5% 5%;
+  background: #F4DADA;
+}
+
+.macarons {
+  width: 50%;
+}
+
+/* rubrieken */
+#rubrieken {
+  position: relative;
+}
+
+.feature-title {
+font-family: "Oswald";
+color: #fabec0;
+font-weight: bold;
+font-size: 1.5rem;
+text-align: center;
+padding-top: 8%;
+padding-bottom: 5%;
+}
+
+.feature-box {
+  padding: 5%;
+  text-align: center;
+}
+
+.rubriek p {
+  text-align: center;
+  font-size: 1rem;
+}
+
+/* Footer */
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	/* position: absolute; */
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #fabec0;
+}
