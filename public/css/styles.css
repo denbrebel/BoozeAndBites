@@ -123,11 +123,17 @@ p {
   width: 100%;
   height: 60px;
   background-color: #F4DADA;
+  margin-top: 16px;
 }
 
 /* Recepten */
+.recepten {
+  margin-top: 50px;
+}
+
 .card {
   margin-top: 16px;
+  background-color: #FFFDF9;
 
 }
 
@@ -154,8 +160,168 @@ p {
 }
 
 /* Wijn en gin */
-.ginImage {
+.wijnengin {
+  margin-top: 50px;
+}
+
+img {
   width: 100%;
-  height: 15vw;
+  height: 10vw;
   object-fit: contain;
+  margin-top: 20px;
+}
+
+.ginTitle {
+  color: #b8b2a6;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.bg-org {
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #DBE9B7;
+    color: white;
+    font-weight: 800;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 20px
+}
+
+.bg-org:hover {
+    background-color: #eec67c
+}
+
+.bg-blue {
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #A8E6CF;
+    color: white;
+    font-weight: 800;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 20px
+}
+
+.bg-blue:hover {
+    background-color: #abb0f5
+}
+
+.bg-vio {
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #F4DADA;
+    color: white;
+    font-weight: 800;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 20px
+}
+
+.bg-vio:hover {
+    background-color: #ce89ee
+}
+
+.bg-redlogo {
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #FFAAA5;
+    color: white;
+    font-weight: 800;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 20px
+}
+
+.bg-redlogo:hover {
+    background-color: #F4DADA
+}
+
+.bg-red {
+    background-color: #FFAAA5;
+    border-radius: 10%;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px 4px
+}
+
+.bg-orgn {
+    background-color: #DBE9B7;
+    border-radius: 10%;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px 4px
+}
+
+.bg-blu {
+    background-color: #A8E6CF;
+    border-radius: 10%;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px 4px
+}
+
+.bg-violet {
+    background-color: #F4DADA;
+    border-radius: 10%;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px 4px
+}
+
+.text-muted {
+    font-size: 14px;
+    text-align: left;
+}
+
+.fs5 {
+    line-height: 20px;
+    font-size: 16px
+}
+
+.items {
+    font-size: 15px;
+    background-color: #F4DADA!important;
+    color: white;
+    margin: 3px 3px;
+    padding: 4px 10px;
+    text-decoration: none;
+    border: 1px solid #ddd
+}
+
+.items:hover {
+    background-color: #fcf7f7;
+    color: black;
+    transition: background-color .8s
+}
+
+.categories {
+  color: #b8b2a6;
+  font-family: "Montserrat"
 }
