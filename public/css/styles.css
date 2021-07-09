@@ -135,7 +135,12 @@ p {
 
 .card {
   margin-top: 16px;
-  background-color: #FFFDF9;
+  background-color: #fdfdf6;
+  border: none;
+}
+
+.img2 {
+  border-radius: 25px;
 }
 
 .card-title {
